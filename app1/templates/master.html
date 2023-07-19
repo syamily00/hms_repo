@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="height: 600px; width: 200px; border: 1px solid; float: left;">
+        <ul>
+            <li><a href="{% url 'firstapp:profile' %}">profile</a></li>
+            <li><a href="{% url 'firstapp:changepassword' %}">change password</a></li>
+            <li><a href="{% url 'firstapp:settings' %}">settings</a></li>
+        </ul>
+    </div>
+    
+    <div style="height: 600px; width: 900px; border: 1px solid; float: left;">
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+
+
+</body>
+</html

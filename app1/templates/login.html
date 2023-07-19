@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hospital management system</h1>
+    <form>
+    <label>username</label>
+    <input type="text" name="" id=""><br><br>
+    <label>password</label>
+    <input type="password" name="" id=""><br><br>
+    <button>login</button>
+    </form>
+    <img src="{% static 'images/image1.jpg' %}" alt="" height="200" width="200">
+    <a href="{% url 'patient:patient_reg' %}">register</a>
+</body>
+</html>

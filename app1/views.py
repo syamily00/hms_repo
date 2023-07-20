@@ -14,4 +14,7 @@ def getsettingspage(request):
     return render(request,'settings.html')  
 
 def getprofilepage(request):
-    return render(request,'profile.html')          
+    return render(request,'profile.html')
+
+def getdemopage(request):
+    return render(request,'demo.html')              

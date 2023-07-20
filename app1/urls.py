@@ -7,5 +7,6 @@ urlpatterns=[
     path('login_master',views.getmasterpage,name="master"),
     path('changepassword/',views.getchangepassword,name="changepassword"),
     path('settings/',views.getsettingspage,name="settings"),
-    path('profile/',views.getprofilepage,name="profile")
+    path('profile/',views.getprofilepage,name="profile"),
+    path('demo/',views.getdemopage,name="demo")
 ]

@@ -17,4 +17,7 @@ def getprofilepage(request):
     return render(request,'profile.html')
 
 def getdemopage(request):
-    return render(request,'demo.html')              
+    return render(request,'demo.html') 
+
+def getcss1(request):
+    return render(request,'css1.html')                 

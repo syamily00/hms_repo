@@ -8,5 +8,6 @@ urlpatterns=[
     path('changepassword/',views.getchangepassword,name="changepassword"),
     path('settings/',views.getsettingspage,name="settings"),
     path('profile/',views.getprofilepage,name="profile"),
-    path('demo/',views.getdemopage,name="demo")
+    path('demo/',views.getdemopage,name="demo"),
+    path('css1/',views.getcss1,name="css1")
 ]
